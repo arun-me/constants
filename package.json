@@ -1,0 +1,30 @@
+{
+  "name": "@arun-me/constants",
+  "version": "1.0.0",
+  "description": "All constants required in coding",
+  "main": "index.js",
+  "scripts": {
+    "prepublishp": "npm version patch",
+    "publishp": "npm publish --access public",
+    "prepublishmi": "npm version minor",
+    "publishmi": "npm publish --access public",
+    "prepublishma": "npm version major",
+    "publishma": "npm publish --access public",
+    "git":"git add .&& git commit -m",
+    "postgit":"git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arun-me/constants.git"
+  },
+  "keywords": [
+    "constants",
+    "alphabets"
+  ],
+  "author": "Arun Surendharan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/arun-me/constants/issues"
+  },
+  "homepage": "https://github.com/arun-me/constants#readme"
+}
