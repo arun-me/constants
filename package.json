@@ -11,7 +11,7 @@
     "prepublishma": "npm version major",
     "publishma": "npm publish --access public",
     "git":"git add .&& git commit -m",
-    "postgit":"git push origin main"
+    "postgit":"git push origin master"
   },
   "repository": {
     "type": "git",
