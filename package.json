@@ -4,13 +4,13 @@
   "description": "All constants required in coding",
   "main": "index.js",
   "scripts": {
-    "prepublishp": "npm version patch",
-    "publishp": "npm publish --access public",
-    "prepublishmi": "npm version minor",
-    "publishmi": "npm publish --access public",
-    "prepublishma": "npm version major",
-    "publishma": "npm publish --access public",
-    "git": "git add .&& git commit -m",
+    "publishp": "npm version patch -m ",
+    "postpublishp": "npm publish --access public",
+    "publishmi": "npm version minor -m ",
+    "postpublishmi": "npm publish --access public",
+    "publishma": "npm version major -m ",
+    "postpublishma": "npm publish --access public",
+    "git": "git add .&& git commit -m ",
     "postgit": "git push origin master"
   },
   "repository": {
