@@ -10,17 +10,19 @@ npm install @arun-me/constants
 
 ## Usage
 
-```
+```js
 import {alphabet,alphabetSmall,alphabetCapital} from "@arun-me/constants"
 
 
-# map aplphabet array
+//map aplphabet array
 
- {alphabet.map((letter) => (
+ {alphabet.map((letter) => (``
           <p>{letter}</p>
         ))}
 
+```
 # output
+```
     a
     b
     c
@@ -29,7 +31,6 @@ import {alphabet,alphabetSmall,alphabetCapital} from "@arun-me/constants"
     .
     z
 ```
-
 ## License
 
 [MIT](https://github.com/arun-me/constants/blob/master/LICENSE)
