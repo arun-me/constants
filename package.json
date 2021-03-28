@@ -1,6 +1,6 @@
 {
   "name": "@arun-me/constants",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "All constants required in coding",
   "main": "index.js",
   "scripts": {
