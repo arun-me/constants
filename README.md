@@ -13,13 +13,11 @@ npm install @arun-me/constants
 ```js
 import {alphabet,alphabetSmall,alphabetCapital} from "@arun-me/constants"
 
-
 //map aplphabet array
-
- {alphabet.map((letter) => (``
+ {alphabet.map((letter) => (
           <p>{letter}</p>
         ))}
-
+        
 ```
 # output
 ```
