@@ -11,7 +11,7 @@ npm install @arun-me/constants
 ## Usage
 
 ```
-import {aplphabet,aplphabetSmall,aplphabetCaps} from "@arun-me/constants"
+import {alphabet,alphabetSmall,alphabetCapital} from "@arun-me/constants"
 
 
 # map aplphabet array
@@ -33,7 +33,3 @@ import {aplphabet,aplphabetSmall,aplphabetCaps} from "@arun-me/constants"
 ## License
 
 [MIT](https://github.com/arun-me/constants/blob/master/LICENSE)
-
-```
-
-```
