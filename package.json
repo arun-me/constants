@@ -10,8 +10,8 @@
     "publishmi": "npm publish --access public",
     "prepublishma": "npm version major",
     "publishma": "npm publish --access public",
-    "git":"git add .&& git commit -m",
-    "postgit":"git push origin master"
+    "git": "git add .&& git commit -m",
+    "postgit": "git push origin master"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,11 @@
   },
   "keywords": [
     "constants",
-    "alphabets"
+    "alphabets",
+    "alphabet"
   ],
   "author": "Arun Surendharan",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/arun-me/constants/issues"
   },
